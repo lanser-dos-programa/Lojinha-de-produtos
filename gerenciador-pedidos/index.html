@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de produtos</title>
+</head>
+
+<body>
+
+    <h1>Gerenciador de produtos</h1>
+
+    <section>
+        <h2>Cadastrar produto</h2>
+
+        <input type="text" id="name" placeholder="Nome do produto">
+
+        <input type="number" id="value" placeholder="Preço do produto">
+
+        <input type="number" id="amount" placeholder="Quantidade do produto">
+
+        <input type="file" id="image" accept="image/*">
+
+        <button type="button" onclick="cadastro()" id="btnCadastro">
+            Cadastrar
+        </button>
+    </section>
+
+    <section class="carrossel">
+        <h2>Produtos cadastrados</h2>
+
+        <div id="carrosselProdutos"></div>
+    </section>
+
+    <script type="module" src="js/produtos.js"></script>
+
+</body>
+</html>

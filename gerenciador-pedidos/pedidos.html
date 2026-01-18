@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/pedidos.css">
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+</head>
+
+<body>
+    <section class="titulo">
+        <h1>Lojinha do Lulu🥶</h1>
+        <h3>Aqui tem tudo o que você precisa</h3>
+    </section>
+
+    <section class="carrossel">
+        <h2>Nossos produtos</h2>
+        <div id="carrosselProdutos"></div>
+    </section>
+
+    <br>
+    <div class="botao">
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <button onclick="adicionarPedido()">Adicionar ao pedido</button>
+        
+    </div>
+    <h2>Itens do pedido</h2>
+    <ul id="listaPedidos"></ul>
+
+    <h3>Total: R$ <span id="totalPedido">0</span></h3>
+
+
+    <br>
+
+    <footer>Feito pelo Lulu</footer>
+
+    <script type="module" src="./js/pedido.js"></script>
+</body>
+
+</html>
