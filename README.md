@@ -43,4 +43,4 @@ During development, the main focus was applying fundamental JavaScript concepts,
  ┣ 📁 js
  ┣ 📄 index.html
  ┣ 📄 orders.html
- ┗ 📄 README.md
+📄 README.md
